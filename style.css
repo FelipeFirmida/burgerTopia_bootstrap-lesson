@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caousel-inner {
+    max-height: 500px;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+header {
+    background-color: rgb(209, 49, 49);
+    color: gold;
+    padding: 16px;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(231, 255, 20, 0.342);
+}
+
+.container {
+    padding: 32px;
+}
+
+.container h2 {
+    text-align: center;
+    color: rgb(245, 24, 24);
+}
+
+.container #cards-containers {
+    padding: 16px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 3;
+}
+
+.container #cards-containers:hover {
+    transform: scale(1.1);
+}
+
+.row img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
